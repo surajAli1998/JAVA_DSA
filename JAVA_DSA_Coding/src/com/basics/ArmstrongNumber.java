@@ -7,18 +7,18 @@ public class ArmstrongNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int num = sc.nextInt();
+        boolean ans = isArmstrong(num);
+        System.out.println(ans);
+    }
+    static boolean isArmstrong(int num) {
         int arm = num;
         int rem;
-        int sum = 0;
+        double sum = 0;
         while (num != 0) {
             rem = num % 10;
-            sum = sum + (rem * rem * rem);
+            sum = sum + Math.pow(rem,3);
             num = num / 10;
         }
-        if (sum == arm) {
-            System.out.println("This is an armstrong number");
-        } else {
-            System.out.println("Not an armstrong number");
-        }
+        return sum == arm;
     }
 }
