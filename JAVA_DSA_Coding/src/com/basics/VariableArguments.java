@@ -6,7 +6,7 @@ public class VariableArguments {
     public static void main(String[] args) {
 
         /*
-        we can give n number of integer values as varArg method is accepting varaible arguments
+        we can give n number of integer values as varArg method is accepting variable arguments
          */
         varArg(12,1,5,5,3,98);
         multiParameter(23, 45, "suraj","Karar", "Patwa");

@@ -15,6 +15,14 @@ public class ReverseArray {
         for(start=0, end=arr.length-1; start<end; start++, end--){
            swapElement(arr, start, end);
         }
+        //or
+//        int start=0;
+//        int end= arr.length-1;
+//        while(start<end){
+//            swapElement(arr, start, end);
+//            start++;
+//            end--;
+//        }
     }
     static void swapElement(int[] arr, int index1, int index2) {
         int temp = arr[index1];
