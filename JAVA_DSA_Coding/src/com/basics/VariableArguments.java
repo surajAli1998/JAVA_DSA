@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class VariableArguments {
     public static void main(String[] args) {
-
         /*
         we can give n number of integer values as varArg method is accepting variable arguments
          */

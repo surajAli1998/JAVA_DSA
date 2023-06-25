@@ -14,5 +14,6 @@ public class StringbuilderBasic {
         String a = "aa";
         a = "ab";
         System.out.println(a);
+//        System.out.println('a'+1);
     }
 }
