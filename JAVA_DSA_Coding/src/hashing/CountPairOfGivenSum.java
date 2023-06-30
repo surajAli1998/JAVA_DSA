@@ -5,9 +5,9 @@ import java.util.Map;
 
 public class CountPairOfGivenSum {
     public static void main(String[] args) {
-        int[] arr = {5,5,5};
+        int[] arr = {5,5,5,3,3,3};
         int n = arr.length;
-        int sum = 10;
+        int sum = 8;
         System.out.print("Count of pairs is "+ getPairsCount(arr, n, sum));
     }
     static int getPairsCount(int[] arr, int n, int k) {

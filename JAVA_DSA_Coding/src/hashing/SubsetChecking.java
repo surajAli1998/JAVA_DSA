@@ -8,7 +8,7 @@ import java.util.Map;
 public class SubsetChecking {
     public static void main(String[] args) {
         int[] arr1 = {6,7,3,2,2};
-        int[] arr2 = {6,7,2,2,3,1};
+        int[] arr2 = {6,7,2,2};
         boolean ans = isSubset(arr1, arr2);
         if(ans) System.out.println("Yes");
         else System.out.println("NO");
