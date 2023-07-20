@@ -12,11 +12,14 @@ public class FibonacciSeries {
         int currnt = 1;
         int temp;
         int c = 2;
+        System.out.println(prev);
+        System.out.println(currnt);
         while(c<=n){
             temp = currnt;
             currnt += prev;
             prev = temp;
             c += 1;
+            System.out.println(currnt);
         }
         System.out.println("The fibonacci term you want to print is: "+currnt);
     }
