@@ -23,6 +23,6 @@ public class MinumumLengthSubarrayOfSumK {
             }
             hmap.put(sum,i);
         }
-        return smallest<Integer.MAX_VALUE?smallest:-1;
+        return smallest<Integer.MAX_VALUE ? smallest : -1;
     }
 }
